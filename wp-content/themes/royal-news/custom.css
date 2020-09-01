@@ -1,0 +1,124 @@
+/**
+ * Stylesheet for custom styles.
+ *
+ */
+
+.site .data-bg-slide {
+    height: 570px
+}
+
+.site .data-bg-1 {
+    height: 220px;
+}
+
+@media only screen and (min-width: 1600px) {
+    .site .container,
+    .home.blog .site .site-content,
+    .site .site-content {
+        width: 1470px;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .site .container,
+    .home.blog .site .site-content,
+    .site .site-content {
+        max-width: inherit;
+        width: 100%;
+    }
+}
+
+.mainbanner-jumbotron-new .slider-figcaption {
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 100%;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption,
+.mainbanner-jumbotron-new .slider-figcaption a {
+    color: #e7e7e7;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption a:hover,
+.mainbanner-jumbotron-new .slider-figcaption a:focus {
+    color: #eb2f21;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption .posts-date:after {
+    content: none;
+    display: none;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption .posts-date {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption .posted-on {
+    padding-right: 15px;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption .slide-title {
+    font-size: 2.25rem;
+    margin: 0 auto 20px;
+    padding: 0;
+}
+
+.mainbanner-jumbotron-new .slider-figcaption .slide-title a {
+    color: #fff;
+}
+
+.twp-article-slides {
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.twp-article-slides figcaption {
+    display: block;
+}
+
+.twp-article-slides figcaption .slide-item-number,
+.twp-article-slides figcaption .slide-nav-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.twp-article-slides figcaption .slide-nav-title {
+    width: 70%;
+    width: calc(100% - 80px);
+}
+
+.twp-article-slides figcaption:before,
+.twp-article-slides figcaption:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-sm {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row-sm > [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row-sm-clear > [class*="col-"]:nth-child(2n+1) {
+    clear: left;
+}
+
+@media only screen and (max-width: 991px) {
+    .site .mainbanner-jumbotron-new {
+        margin-bottom: 10px;
+    }
+}

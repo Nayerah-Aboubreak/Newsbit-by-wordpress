@@ -1,0 +1,90 @@
+/*
+Theme Name: FrannaWP
+
+Adding support for languages written in a Right To Left (RTL) direction is easy.
+It's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.above-navigation .site-branding {
+    text-align: right;
+}
+
+.frontpage-featured-posts {
+    text-align: right;
+}
+
+.widget ul,
+.widget ol {
+	text-align: right;
+}
+
+h4.widget-title {
+    text-align: right;
+}
+
+.text-container {
+	text-align: right;
+}
+
+.site-main .page-title {
+	text-align: right;
+}
+
+.site-main .entry-content {
+	text-align: right;
+}
+
+.site-main .comments-container {
+	text-align: right;
+}
+
+.menu-button i {
+    margin-right: 5px;
+}
+
+.site-navigation .navbar-nav {
+    margin: 0 auto 0 0 !important;
+}
+
+.entry-title {
+	direction: rtl !important;
+}
+
+.widget .widget-title span,
+.content-area .widget .widget-title span {
+	padding: 0 8px 0 0 !important;
+	border: none !important;
+	border-right: 3px solid #c0392b !important;
+}
+
+.site-content .content-area {
+    padding: 0 0 0 15px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+.site-content .widget-area {
+    padding: 0 15px 0 0;
+}
+
+.widget-category-one .widget-category-one-right .text-container {
+    padding: 0 4px 0 0;
+}
+
+.widget-category-two .widget-category-two-content .text-container {
+    padding: 0 4px 0 0;
+}
+
+.category-three-posts .widget-category-three-left-bottom .widget-category-content .text-container,
+.category-three-posts .widget-category-three-right-bottom .widget-category-content .text-container {
+    padding: 0 4px 0 0;
+}
